@@ -57,8 +57,8 @@ def kopyala_jpg_dosyalari(kaynak_klasor, hedef_klasor, kopyalanama_oranı = 0.7)
 ana_dizin = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Mutlak yolları belirle (Yeni klasör adları ile)
-kaynak_klasor = os.path.join(ana_dizin, 'panelDatas')
-hedef_klasor = os.path.join(ana_dizin, 'randomPanelDatas')
+kaynak_klasor = os.path.join(ana_dizin, 'KAYNAK_KLASOR_ADI')
+hedef_klasor = os.path.join(ana_dizin, 'HEDEF_KLASOR_ADI')
 
 # Fonksiyonu çalıştıralım
 kopyala_jpg_dosyalari(kaynak_klasor, hedef_klasor)
